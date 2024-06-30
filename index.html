@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degi Mart</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #001f3f;">
+        <a class="navbar-brand" href="#">
+            <img src="images/tmpnglogo.png" alt="Your Logo" height="80"> <!-- Increase the height here -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="showProducts()">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="showCart()">Cart</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" onsubmit="searchProduct(event)">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Product" aria-label="Search" id="searchInput">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row" id="content">
+            <!-- Products and Cart items will be dynamically inserted here -->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

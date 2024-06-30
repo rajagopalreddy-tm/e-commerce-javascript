@@ -1,0 +1,134 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "image": "../images/athleticshoes.jpg",
+      "name": "Shoes",
+      "description": "Comfortable athletic shoes for all-day wear.",
+      "rating": "4.3",
+      "price": "2624.25"
+    },
+    {
+      "id": "2",
+      "image": "../images/basketball.jpg",
+      "name": "Basketball",
+      "description": "Durable basketball suitable for indoor and outdoor play.",
+      "rating": "3.8",
+      "price": "1874.25"
+    },
+    {
+      "id": "3",
+      "image": "../images/sunglasses.jpg",
+      "name": "Sunglasses",
+      "description": "Stylish UV protection sunglasses for sunny days.",
+      "rating": "4.2",
+      "price": "1499.25"
+    },
+    {
+      "id": "4",
+      "image": "../images/tshirt.jpg",
+      "name": "T-Shirt",
+      "description": "Comfortable cotton t-shirt available in various colors.",
+      "rating": "4.5",
+      "price": "1124.25"
+    },
+    {
+      "id": "5",
+      "image": "../images/sunhat.jpg",
+      "name": "SunHat",
+      "description": "Wide-brimmed sunhat for sun protection during outdoor activities.",
+      "rating": "4.0",
+      "price": "974.25"
+    },
+    {
+      "id": "6",
+      "image": "../images/bowl.jpg",
+      "name": "Bowl-Set",
+      "description": "Set of durable ceramic bowls suitable for daily use.",
+      "rating": "4.1",
+      "price": "2249.25"
+    },
+    {
+      "id": "7",
+      "image": "../images/tower.jpg",
+      "name": "Towel-Set",
+      "description": "Soft and absorbent towel set for bathroom and beach use.",
+      "rating": "3.9",
+      "price": "1499.25"
+    },
+    {
+      "id": "8",
+      "image": "../images/umbrella.jpg",
+      "name": "Black-Umbrella",
+      "description": "Wind-resistant umbrella with a sleek black design.",
+      "rating": "4.4",
+      "price": "1349.25"
+    },
+    {
+      "id": "9",
+      "image": "../images/womenjogger.jpg",
+      "name": "Women-Jogger",
+      "description": "Comfortable jogger pants for women, ideal for casual wear.",
+      "rating": "4.2",
+      "price": "1724.25"
+    },
+    {
+      "id": "10",
+      "image": "../images/sneakerspink.jpg",
+      "name": "Women-Sneakers",
+      "description": "Stylish pink sneakers for women, perfect for daily activities.",
+      "rating": "3.7",
+      "price": "2099.25"
+    },
+    {
+      "id": "11",
+      "image": "../images/cottonsocks.jpg",
+      "name": "Cotton-Socks",
+      "description": "Soft cotton socks for everyday comfort.",
+      "rating": "4.6",
+      "price": "749.25"
+    },
+    {
+      "id": "12",
+      "image": "../images/hoodie.jpg",
+      "name": "Men-Hoodie",
+      "description": "Warm and cozy hoodie for men, suitable for cool weather.",
+      "rating": "4.3",
+      "price": "2624.25"
+    },
+    {
+      "id": "13",
+      "image": "../images/football.jpg",
+      "name": "Football",
+      "description": "A profetional and durable football for out door play.",
+      "rating": "4.9",
+      "price": "1999.99"
+    },
+    {
+      "id": "14",
+      "image": "../images/volleyball.jpg",
+      "name": "Volleyball",
+      "description": "Durable volleyball for indoor and outdoor play.",
+      "rating": "3.8",
+      "price": "1699.99"
+    }
+  ],
+  "cart": [
+    {
+      "id": "9",
+      "image": "../images/womenjogger.jpg",
+      "name": "Women-Jogger",
+      "description": "Comfortable jogger pants for women, ideal for casual wear.",
+      "rating": "4.2",
+      "price": "1724.25"
+    },
+    {
+      "id": "12",
+      "image": "../images/hoodie.jpg",
+      "name": "Men-Hoodie",
+      "description": "Warm and cozy hoodie for men, suitable for cool weather.",
+      "rating": "4.3",
+      "price": "2624.25"
+    }
+  ]
+}
